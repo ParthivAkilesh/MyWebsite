@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"> </script>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li> 
+        </ul>
+    </nav>
+    <section id="home">
+           <div class="main">
+               <!-- put ur name here -->
+               <h1 class="headings">I am <br>Parthiv Akilesh A S</h1>
+               <button class="btn">
+                   Hire me
+               </button>
+           </div>
+    </section>
+
+    <section id="about">
+        <div id="pic">
+            <h1 class="headings" center>ABOUT ME</h1>
+            <img src="aspa.jpg" alt="">
+            <div class="intro">
+                <!-- put about yourself here -->
+                <h2>Parthiv Akilesh A S</h2>
+                <p> Hello! I'm an undergraduate at KPRIET under the branch of Artificial Intelligence and Data Science.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h1 class="headings">PROJECTS</h1>
+        <!-- customize your services here -->
+        <div class="row">
+            <div class="box">
+                <img src="web.png" alt="">
+                <h1 class="headings">Diabetes Classification<br></h1>
+                <p>I can design websites for buisness purposes</p>
+                <br>
+                <a href="https://share.streamlit.io/parthivakilesh/diabetes_classification/main/app1.py" class="btnn" target="_blank" onclick="link1()">Live Demo</a>
+            </div>
+            <div class="box">
+                <img src="web.png" alt="">
+                <h1 class="headings">Portfolio Website<br></h1>
+                <p>I can design UI for buisness purposes</p>
+                <br>
+                <a href="#home" class="btnn">Live Demo</a>
+            </div>
+            <div class="box">
+                <img src="web.png" alt="">
+                <h1 class="headings">Bank Authenticator<br></h1>
+                <p>I can design apps for buisness purposes</p>
+                <br>
+                <a href="https://share.streamlit.io/parthivakilesh/bank-authenticator-ml-model/main/app.py#bank-authenticator" class="btnn" target="_blank" onclick="link2()">Live Demo</a>
+                
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="headings">CONTACT ME</h1>
+        <form action="" class="form">
+            <input type="text" name="name" id="input" placeholder="Enter Your name">
+            <input type="email" name="email" class="input" placeholder="Enter Your Email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
+    </section>
+</body>
+</html>
